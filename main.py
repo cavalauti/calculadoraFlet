@@ -175,8 +175,8 @@ def main(page: ft.Page):
                 content=content,
                 on_click=button_clicked,
                 expand=expand,
-                bgcolor=ft.Colors.WHITE_24,
-                color=ft.Colors.WHITE
+                bgcolor=ft.Colors.YELLOW,
+                color=ft.Colors.BLUE_800
             )
 
     class ActionButton(CalcButton):
@@ -185,8 +185,8 @@ def main(page: ft.Page):
                 content=content,
                 on_click=button_clicked,
                 expand=expand,
-                bgcolor=ft.Colors.ORANGE,
-                color=ft.Colors.WHITE
+                bgcolor=ft.Colors.BLUE_800,
+                color=ft.Colors.YELLOW
             )
 
     class ExtraActionButton(CalcButton):
@@ -195,14 +195,14 @@ def main(page: ft.Page):
                 content=content,
                 on_click=button_clicked,
                 expand=expand,
-                bgcolor=ft.Colors.BLUE_GREY_100,
-                color=ft.Colors.BLACK
+                bgcolor=ft.Colors.BLUE_800,
+                color=ft.Colors.YELLOW
             )
 
     page.add(
         ft.Container(
             width=350,
-            bgcolor=ft.Colors.BLACK,
+            bgcolor=ft.Colors.LIGHT_BLUE_100,
             border_radius=ft.border_radius.all(20),
             padding=20,
             content=ft.Column(
